@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="th" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SUNFZ Gaming Lounge — รับเล่นเกม ฟาร์มเควสต์ ลงดัน เก็บเสาเทพ ปลอดภัย 100%</title>
+  <meta name="description" content="บริการรับจ้างเล่นเกม Genshin Impact, Honkai: Star Rail, ลงดันเจี้ยนอาร์ติแฟก, ตีบอสสัปดาห์, อัพเสาเทพ, ทำเควสต์กิจกรรม เล่นมือแท้ 100% มีเครดิตร้านตรวจสอบได้" />
+  <link rel="icon" type="image/png" href="/images/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=Mitr:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/styles/main.css" />
+  <script>
+    (function() {
+      var saved = localStorage.getItem('sunfz_gaming_theme');
+      if (saved) document.documentElement.setAttribute('data-theme', saved);
+    })();
+  </script>
+</head>
+<body>
+  <div id="ecosystem-bar"></div>
+
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="/" class="brand">
+        <img src="/images/mascot-logo.png" alt="SUNFZENITH" />
+        <div>
+          <span class="brand-title">SUNFZ Gaming Lounge</span>
+          <span class="brand-sub">รับเล่นเกม • ฟาร์มเควสต์ • ลงดัน • ดูแลไอดี</span>
+        </div>
+      </a>
+      <nav class="nav-menu">
+        <a href="#services">บริการเกม</a>
+        <a href="#ratecards">ตารางเรตราคา</a>
+        <a href="#safety">ความปลอดภัยของไอดี</a>
+      </nav>
+      <div style="display: flex; align-items: center; gap: 0.6rem;">
+        <button id="theme-toggle" class="btn btn-outline" style="padding: 0.45rem 0.85rem;">🌓 ธีม</button>
+        <a href="https://www.facebook.com/profile.php?id=61595346770633&locale=th_TH" target="_blank" rel="noopener" class="btn btn-primary" style="padding: 0.5rem 1.1rem;">จองคิวเล่นเกม</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="queue-pill">🟢 สถานะคิวปัจจุบัน: เปิดรับคิวงาน • เล่นมือ 100% ปลอดภัยไร้โปร</div>
+      <h1>บริการรับเล่นเกม & <span style="color: var(--primary);">ดูแลไอดีครบวงจร</span><br/>งานไว ส่งสกรีนช็อตทุกออเดอร์</h1>
+      <p>
+        ไม่มีเวลาเล่น เควสต์ดอง เรซิ่นล้น ให้เราดูแลแทน! รับฟาร์ม Genshin Impact, Honkai: Star Rail,
+        ลงดันเจี้ยนอาร์ติแฟก, ตีบอสสัปดาห์, อัพเสาเทพ, เปิดแมพ และเล่นเป็นเพื่อน พร้อมเครดิตซื้อขายจริงตรวจสอบได้
+      </p>
+      <div style="display: flex; gap: 0.85rem; justify-content: center; flex-wrap: wrap;">
+        <a href="#ratecards" class="btn btn-primary">📋 ดูตารางเรตราคา</a>
+        <a href="#safety" class="btn btn-outline">🛡️ มาตรฐานความปลอดภัยไอดี</a>
+      </div>
+    </section>
+
+    <section id="services" class="section container">
+      <div class="section-header">
+        <h2>บริการรับจ้างเล่นเกมยอดนิยม</h2>
+        <p>เลือกหมวดหมู่บริการที่ต้องการให้เราช่วยดูแล</p>
+      </div>
+      <div id="services-grid" class="grid-3"></div>
+    </section>
+
+    <section id="ratecards" class="section container">
+      <div class="section-header">
+        <h2>ตารางเรตราคาค่าบริการเบื้องต้น</h2>
+        <p>สามารถทักแชทเพื่อส่งรายละเอียดให้ประเมินราคาเหมาสุดคุ้มได้ทันที</p>
+      </div>
+      <div id="ratecards-grid" class="grid-3"></div>
+    </section>
+
+    <section id="safety" class="section container">
+      <div class="section-header">
+        <h2>มาตรฐานความปลอดภัยของไอดีลูกค้า</h2>
+        <p>ความสบายใจของลูกค้าคือสิ่งสำคัญที่สุด</p>
+      </div>
+      <div id="safety-grid" class="grid-3"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p><strong>SUNFZ Gaming Lounge</strong> — หนึ่งในเครือข่ายบริการของ SUNFZENITH</p>
+      <p style="margin-top: 0.4rem;">เล่นมือ 100% • ส่งงานไว • เช็กเครดิตได้ตลอด 24 ชม.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

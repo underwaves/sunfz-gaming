@@ -1,0 +1,16 @@
+{
+  "name": "sunfz-gaming",
+  "version": "1.0.0",
+  "description": "SUNFZ Gaming Lounge — เว็บรับเล่นเกม ฟาร์มเควสต์ ลงดันเจี้ยน เก็บเสาเทพ และดูแลไอดี",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite --port 5176",
+    "build": "vite build",
+    "preview": "vite preview --port 5176"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "^8.3.3"
+  }
+}
